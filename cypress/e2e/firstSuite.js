@@ -315,7 +315,7 @@ describe('>>Autocomplete TextField<< page', () => {
 
 describe('>>Ajax loader<< page', () => {
 
-  it('Wait for load the button', () => {
+  it('Wait for the button to load', () => {
 
     function waiting() {
       cy.get('#myDiv').invoke('attr', 'style').then( loader =>{
@@ -350,5 +350,4 @@ describe('>>Ajax loader<< page', () => {
 4) zadania zrobione bez pkt "16 Zsynchronizuj odpalanie testów z https://dashboard.cypress.io/login"
 
 5) dlaczego w checkboxach i radiobuttonach nie działa ani invoke('val') ani invoke('prop', 'value') ani w radiobuttonach invoke('attr', 'value'), ani its('value')???
-
 */

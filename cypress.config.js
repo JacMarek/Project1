@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: "5hcz76",
   viewportHeight: 1080,
   viewportWidth: 1920, //rozdzielczość przeglądarki do testów
   e2e: {
