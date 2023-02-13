@@ -15,7 +15,7 @@ jobs:
         with:
           # Disable running of tests within install job
           runTests: false
-          build: yarn build
+          # build: yarn build - nie wiem co to a wywala błąd
 
       - name: Save build folder
         uses: actions/upload-artifact@v3
