@@ -189,7 +189,7 @@ describe(">>Dropdown Menu(s), Checkboxe(s) & Radio Button(s)<< page", () => {
 
   it("Checkboxes", () => {
 
-    // czemu to np. nie działa??
+    // // czemu to np. nie działa??
     // let test = cy.get('#radio-buttons input').eq(0).invoke('prop', 'value')
     // cy.log(test)
 
