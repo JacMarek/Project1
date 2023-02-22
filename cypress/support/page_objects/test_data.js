@@ -44,7 +44,7 @@ class TestData {
         "obviously”not”correct@email.com",
         "example\ is”especially”not\allowed@email.com"],
         dropdownValues: ["JAVA", "C#", "Python", "SQL", "Eclipse", "Maven", "TestNG", "JUnit", "HTML", "CSS", "JavaScript", "JQuery"],
-        goBackForDays: 1000,
+        goBackForDays: 500,
         food: ["Chips", "Chicken", "Granola", "Grapes", "French toast", "French dip"]
         }
     }
